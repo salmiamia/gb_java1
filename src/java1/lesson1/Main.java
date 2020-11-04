@@ -1,4 +1,4 @@
-package lesson1.java1;
+package java1.lesson1;
 
 public class Main {
 
