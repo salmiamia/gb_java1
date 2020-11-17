@@ -1,12 +1,12 @@
 package java1.lesson5;
 
 public class Cat extends Animal {
-    protected static double abilityToRun = 200;
-    protected static double abilityToJump = 2;
-    protected static double abilityToSwim = 0;
+    double abilityToRun = 200;
+    double abilityToJump = 2;
+    double abilityToSwim = 0;
 
     Cat(String name, int age) {
-        super(name, age, abilityToRun, abilityToJump, abilityToSwim);
+        super(name, age);
     }
 
     Cat(String name, int age, double abilityToRun, double abilityToJump, double abilityToSwim) {
