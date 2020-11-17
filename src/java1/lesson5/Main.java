@@ -8,7 +8,7 @@ public class Main {
         Dog dog0 = new Dog("Bobeek", 4);
         Cat cat1 = new Cat("Pushok", 1, 250, 2.5, 0.5);
         Cat cat2 = new Cat("Barseek", 8, 15, 1, 1);
-        Dog dog1 = new Dog("Barbos", 7, 100, 0.5, 100);
+        Dog dog1 = new Dog("Barbos", 7, 100, 0.6, 100);
         Dog dog2 = new Dog("Shareek", 1, 700, 2, 50);
 
         double taskToRun = 150;

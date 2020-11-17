@@ -1,12 +1,12 @@
 package java1.lesson5;
 
 public class Dog extends Animal {
-    protected static double abilityToRun = 500;
-    protected static double abilityToJump = 0.5;
-    protected static double abilityToSwim = 10;
+    double abilityToRun = 500;
+    double abilityToJump = 0.5;
+    double abilityToSwim = 10;
 
     Dog(String name, int age) {
-        super(name, age, abilityToRun, abilityToJump, abilityToSwim);
+        super(name, age);
     }
 
     Dog(String name, int age, double abilityToRun, double abilityToJump, double abilityToSwim) {
